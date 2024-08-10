@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>DiversityHub</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/c/c7/Vassar_College_Seal.svg" type="image/svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="navbar" id="top">
+      <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c7/Vassar_College_Seal.svg" alt="Vassar College Logo">
+        <h1>DiversityHub</h1>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#resources">Resources</a></li>
+        <li><a href="#stories">Stories</a></li>
+        <li><a href="#discuss">Discuss</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><button id="theme-button" class="theme-button">Toggle Dark Mode</button></li>
+      </ul>
+    </div>
+  </header>
+    <!-- Home image -->
+    <div class="home-image-container">
+      <img src="https://offices.vassar.edu/alana/wp-content/uploads/sites/4/2023/05/IMG_36311-scaled.jpg"
+        alt="Vassar Students at an Alana Center event outside" width="100%" style="filter: brightness(60%)">
+
+      <div id="top" class="home-text-overlay">
+        <h3 class="shadow-text">Empowering <br> Excellence</h3>
+      </div>
+    </div>
+<!-- Resources divide -->
+<div id="resources">
+  <h2 style="text-align: left; padding-left: 10px; padding-top: 20px; font-size: 30px;">Important Resources</h2>
+</div>
+    <!-- Resource Listing -->
+      <div class="container hidden">
+        <img class="image-side" src="https://www.vassar.edu/sites/default/files/2021-06/campus-life-student-life.jpg" alt="5 students having a discussion in a table at the gordon comoons (Vassar's dining building)">
+        <div class="text-content">
+          <h2>Office of Campus Life and Diversity</h2>
+          <p style="text-align: center;">Office dedicated to promoting diversity, equity, and inclusion on campus. This office might organize events, workshops, and programs aimed at supporting students of color.</p>
+          <button class="learn-more-button">Learn More</button>
+        </div>
+      </div>
+
+    <div class="container hidden">
+      <img class="image-side" src="https://www.vassar.edu/sites/default/files/2022-11/Vassar_ALANA_dedication_20221119_KR_0126.jpg" alt="Photograph of the outside of the Jeh Vincent Alana Center at Vassar College">
+      <div class="text-content">
+        <h2>Cultural Centers and Organizations</h2>
+        <p style="text-align: center;">Cultural centers or affinity groups might exist for various ethnic and racial communities on campus. These centers often provide a space for students to connect, celebrate their cultures, and find support.</p>
+        <button class="learn-more-button">Learn More</button>
+      </div>
+    </div>
+      
+    <div class="container hidden">
+      <img class="image-side" src="https://www.vassar.edu/admission/assets/images/explore/diversity/0148-17-09-kr-alana-vassar-4978.jpg" alt="Four students having fun at a vassar event">
+      <div class="text-content">
+        <h2>Diversity Programming</h2>
+        <p style="text-align: center;">The college host events, lectures, panel discussions, and cultural celebrations that focus on issues related to diversity and inclusion.</p>
+        <button class="learn-more-button">Learn More</button>
+      </div>
+    </div>
+    <!-- Stories Divide -->
+    <div id="stories">
+      <h2 style="font-size: 32px;">Read Stories</h2>
+    </div>
+    <!-- Stories Images -->
+    <div class="image-section">
+      <div class="image-container">
+        <img class="image" src="https://www.vassar.edu/alums/assets/img/alums-give/0049_13_04_BL_9876-cropped.jpg" alt="Group of 5 Vassar students looking at the camera">
+        <div class="overlay">
+          <h4>Story Name</h4>
+          <p>Blurb</p>
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="image" src="https://live.staticflickr.com/65535/51250500740_2b4b4d04f8_b.jpg" alt="Vassar student at graduation with a family member">
+        <div class="overlay">
+          <h4>Story Name</h4>
+          <p>Blurb</p>
+        </div>
+      </div>
+      <div class="image-container">
+        <img class="image" src="https://www.vassar.edu/sites/default/files/2021-06/campus-life-residential-life.jpg" alt="Vassar Students mingling in the Raymond house parlor">
+        <div class="overlay">
+          <h4>Story Name</h4>
+          <p>Blurb</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Discussion Divide-->
+    <div style="background-color: darkgray; padding-bottom: 20px;">
+      <div id="discuss">
+        <h2 style="font-size: 32px; padding: 20px; color: white;">Let's Talk About It!</h2>
+      </div>  
+      <div>
+        <h4 style="text-align: center;">What are some of the actions you'd like to see Vassar take to attract a diverse pool of students? </h4>
+        <p style="text-align: center; color: white;">Sample Response</p>
+        <button class="read-more-button">Read More</button>
+      </div>
+      <div>
+        <h4 style="text-align: center;">What events would do you think Vassar can host to bring diverse communities together? </h4>
+        <p style="text-align: center; color: white;">Sample Response</p>
+        <button class="read-more-button">Read More</button>
+      </div>
+      <div class="post-question-container">
+        <button class="post-a-question-button">Post a Question</button>
+      </div>
+    </div>
+
+    <!-- About Us -->
+    <div id="about" class="hidden">
+         <h2 style="font-size: 30px;"> About Us </h2>
+      <p style="text-align: center; padding-bottom: 20px; padding-left: 20px; padding-right: 20px; font-size: 25px; font-family: 'Open Sans', sans-serif;">We aim to create a sense of unity and empowerment for students of color here at Vassar. We are dedicated to promoting diversity for and supporting the well-being of our students. Connect with students, faculty, and resources dedicated to inclusion.</p>
+    </div>
+<!-- Form -->
+  <div class="subscription-container hidden" style="text-align: center;">
+    <h2>Subscribe to Our Email List</h2>
+    <form id="subscription-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <button type="button" id="subscribe-button" class="subscribe-button">Subscribe</button>
+    </form>
+    <div id="last-subscriber">
+      <h2>Last Subscriber:</h2>
+      <p id="last-subscriber-info"></p>
+    </div>
+  </div>
+
+  <!--Modal-->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <iframe src="https://giphy.com/embed/gDipFXZvaUTbn3HfuC" frameborder="0" class="giphy-embed"></iframe>
+      <p><a href="https://giphy.com/gifs/dog-pug-puglie-gDipFXZvaUTbn3HfuC">via GIPHY</a></p>
+      <p id="modalSubscriberName">Thank you for subscribing!</p>
+    </div>
+  </div>
+
+  
+<!-- Footer -->
+    
+    <footer>
+      <div class="footer-content">
+        <h2 style="color: white">Vassar College DiversityHub</h2>
+        <p>Email: example@example.com</p>
+        <p>Phone: (123) 456-7890</p>
+      </div>
+      <div class="footer-links">
+        <nav>
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  <script src="index.js"></script>
+    
+</body>
+
+</html>
